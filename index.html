@@ -220,16 +220,26 @@
 
         <div class="contact__container bd-grid">
           <form action="POST" data-netlify="true" class="contact__form">
-            <input type="text" placeholder="Name" class="contact__input" />
-            <input type="mail" placeholder="Email" class="contact__input" />
-            <div data-netlify-recaptcha="true"></div>
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              class="contact__input"
+            />
+            <input
+              type="mail"
+              name="mail"
+              placeholder="Email"
+              class="contact__input"
+            />
             <textarea
-              name=""
+              name="message"
               id=""
               cols="0"
               rows="10"
               class="contact__input"
             ></textarea>
+            <div data-netlify-recaptcha="true"></div>
             <input type="button" value="Send" class="contact__button button" />
           </form>
         </div>
