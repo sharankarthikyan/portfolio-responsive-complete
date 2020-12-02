@@ -4,7 +4,7 @@
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
-  --font-semi: 600;
+  --font-semi: 600 !important;
 }
 
 /*===== Colores =====*/
@@ -167,7 +167,7 @@ img {
 .nav__logo {
   color: var(--second-color);
   font-family: "Cedarville Cursive", cursive;
-  font-weight: 800;
+  font-weight: 800 !important;
 }
 .nav__toggle {
   color: var(--second-color);
@@ -176,7 +176,8 @@ img {
 }
 
 /*Active menu*/
-.active::after {
+.active::after,
+.after {
   position: absolute;
   content: "";
   width: 100%;

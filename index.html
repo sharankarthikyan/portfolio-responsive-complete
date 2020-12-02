@@ -14,6 +14,8 @@
       rel="stylesheet"
     />
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
     <title>Sharan</title>
   </head>
   <body>
@@ -52,7 +54,7 @@
 
     <main class="l-main">
       <!--===== HOME =====-->
-      <section class="home bd-grid" id="home">
+      <section class="home bd-grid scrollspy" id="home">
         <div class="home__data">
           <h1 class="home__title">
             Hi,<br />I'm <span class="home__title-color">Sharan</span><br />
@@ -82,7 +84,7 @@
       </section>
 
       <!--===== ABOUT =====-->
-      <section class="about section" id="about">
+      <section class="about section scrollspy" id="about">
         <h2 class="section-title">About</h2>
 
         <div class="about__container bd-grid">
@@ -103,7 +105,7 @@
       </section>
 
       <!--===== SKILLS =====-->
-      <section class="skills section" id="skills">
+      <section class="skills section scrollspy" id="skills">
         <h2 class="section-title">Skills</h2>
 
         <div class="skills__container bd-grid">
@@ -189,33 +191,30 @@
       </section>
 
       <!--===== WORK =====-->
-      <section class="work section" id="work">
+      <section class="work section scrollspy" id="work">
         <h2 class="section-title">Work</h2>
 
         <div class="work__container bd-grid">
           <div class="work__img">
-            <img src="assets/img/work3.jpg" alt="" />
+            <a href="https://notes-app-sharank.herokuapp.com/"
+              ><img src="assets/img/twinkleTodosPlain.jpg" alt=""
+            /></a>
           </div>
           <div class="work__img">
-            <img src="assets/img/work3.jpg" alt="" />
+            <a href="https://sharank.netlify.app/">
+              <img src="assets/img/twinkleWeathersPlain.jpg" alt=""
+            /></a>
           </div>
           <div class="work__img">
-            <img src="assets/img/work3.jpg" alt="" />
-          </div>
-          <div class="work__img">
-            <img src="assets/img/work4.jpg" alt="" />
-          </div>
-          <div class="work__img">
-            <img src="assets/img/work5.jpg" alt="" />
-          </div>
-          <div class="work__img">
-            <img src="assets/img/work6.jpg" alt="" />
+            <a href="https://github.com/sharankarthikyan/PathFinderAR">
+              <img src="assets/img/pathFinderAR.jpg" alt=""
+            /></a>
           </div>
         </div>
       </section>
 
       <!--===== CONTACT =====-->
-      <section class="contact section" id="contact">
+      <section class="contact section scrollspy" id="contact">
         <h2 class="section-title">Contact</h2>
 
         <div class="contact__container bd-grid">
@@ -259,6 +258,11 @@
           href="https://www.instagram.com/sharankarthikeyan/"
           class="footer__icon"
           ><i class="bx bxl-instagram"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/sharan-k-ba33aa171/"
+          class="footer__icon"
+          ><i class="bx bxl-linkedin"></i
         ></a>
         <a href="https://github.com/sharankarthikyan" class="footer__icon"
           ><i class="bx bxl-github"></i
